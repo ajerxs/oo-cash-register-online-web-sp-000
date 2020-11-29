@@ -27,6 +27,9 @@ class CashRegister
       @discount = @discount/100.to_f
       @total = (1 - @discount) * @total
       "After the discount, the total comes to $#{@total.to_i}."
+    else
+      "There is no disount to apply."
     end
   end
+  
 end
