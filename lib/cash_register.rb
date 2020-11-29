@@ -31,5 +31,5 @@ class CashRegister
       "There is no disount to apply."
     end
   end
-  
+
 end
